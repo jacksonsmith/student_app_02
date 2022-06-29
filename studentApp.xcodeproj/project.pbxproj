@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A38A4EA2863B4A7004A18CA /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A38A4E92863B4A7004A18CA /* View.xib */; };
 		7A6C6BD2285FD94B005940F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6C6BD1285FD94B005940F6 /* AppDelegate.swift */; };
 		7A6C6BD4285FD94B005940F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6C6BD3285FD94B005940F6 /* SceneDelegate.swift */; };
 		7A6C6BD6285FD94B005940F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6C6BD5285FD94B005940F6 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 		7A6C6BE9285FD94F005940F6 /* studentAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6C6BE8285FD94F005940F6 /* studentAppTests.swift */; };
 		7A6C6BF3285FD94F005940F6 /* studentAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6C6BF2285FD94F005940F6 /* studentAppUITests.swift */; };
 		7A6C6BF5285FD94F005940F6 /* studentAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6C6BF4285FD94F005940F6 /* studentAppUITestsLaunchTests.swift */; };
+		7A7AA377286CEFE000FE943C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7AA376286CEFE000FE943C /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A38A4E92863B4A7004A18CA /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 		7A6C6BCE285FD94B005940F6 /* studentApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = studentApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A6C6BD1285FD94B005940F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A6C6BD3285FD94B005940F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		7A6C6BEE285FD94F005940F6 /* studentAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = studentAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A6C6BF2285FD94F005940F6 /* studentAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studentAppUITests.swift; sourceTree = "<group>"; };
 		7A6C6BF4285FD94F005940F6 /* studentAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studentAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7A7AA376286CEFE000FE943C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +106,9 @@
 				7A6C6BD1285FD94B005940F6 /* AppDelegate.swift */,
 				7A6C6BD3285FD94B005940F6 /* SceneDelegate.swift */,
 				7A6C6BD5285FD94B005940F6 /* ViewController.swift */,
+				7A7AA376286CEFE000FE943C /* SecondViewController.swift */,
 				7A6C6BD7285FD94B005940F6 /* Main.storyboard */,
+				7A38A4E92863B4A7004A18CA /* View.xib */,
 				7A6C6BDA285FD94F005940F6 /* Assets.xcassets */,
 				7A6C6BDC285FD94F005940F6 /* LaunchScreen.storyboard */,
 				7A6C6BDF285FD94F005940F6 /* Info.plist */,
@@ -231,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A38A4EA2863B4A7004A18CA /* View.xib in Resources */,
 				7A6C6BDE285FD94F005940F6 /* LaunchScreen.storyboard in Resources */,
 				7A6C6BDB285FD94F005940F6 /* Assets.xcassets in Resources */,
 				7A6C6BD9285FD94B005940F6 /* Main.storyboard in Resources */,
@@ -258,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A7AA377286CEFE000FE943C /* SecondViewController.swift in Sources */,
 				7A6C6BD6285FD94B005940F6 /* ViewController.swift in Sources */,
 				7A6C6BD2285FD94B005940F6 /* AppDelegate.swift in Sources */,
 				7A6C6BD4285FD94B005940F6 /* SceneDelegate.swift in Sources */,
